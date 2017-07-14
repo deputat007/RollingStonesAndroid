@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_layout_bg"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <include layout="@layout/app_bar"/>
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/user_icon_size"
+        android:layout_height="@dimen/user_icon_size"
+        android:layout_marginTop="@dimen/offset_huge"
+        android:contentDescription="@string/content_description_account_deleted"
+        tools:src="@drawable/logo_vk"/>
+
+    <TextView
+        android:id="@+id/tv_first_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/offset_medium"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_32"
+        tools:text="Andriy Deputat"/>
+
+    <Button
+        android:id="@+id/button_restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/offset_medium"
+        android:text="@string/text_restore_account"/>
+
+</LinearLayout>

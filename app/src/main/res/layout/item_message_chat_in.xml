@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="end"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/offset_small"
+        android:textSize="@dimen/text_size_12"
+        tools:text="17:15"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/in_message_bg"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <io.github.rockerhieu.emojicon.EmojiconTextView
+            android:id="@+id/text_view_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_size_16"
+            emojicon:emojiconSize="@dimen/text_size_16"
+            tools:text="Hi, my name is Andrew\nWhat is your name?"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/offset_regular">
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/item_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/offset_medium"
+        android:paddingEnd="@dimen/offset_small"
+        android:paddingStart="@dimen/offset_small"
+        android:textSize="@dimen/text_size_18"
+        tools:text="Small"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/item_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/offset_small"
+        android:paddingStart="@dimen/offset_small"
+        android:textSize="@dimen/text_size_18"
+        tools:text="Normal"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/item_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/offset_medium"
+        android:paddingEnd="@dimen/offset_small"
+        android:paddingStart="@dimen/offset_small"
+        android:textSize="@dimen/text_size_18"
+        tools:text="Large"/>
+</RadioGroup>

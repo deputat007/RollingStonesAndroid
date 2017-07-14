@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_icon"
+        android:layout_width="@dimen/user_icon_size_message"
+        android:layout_height="@dimen/user_icon_size_message"
+        android:layout_gravity="bottom"
+        app:civ_border_width="0dp"
+        tools:src="@drawable/ic_default_account"/>
+
+    <ImageView
+        android:id="@+id/iv_online_status"
+        android:layout_width="@dimen/status_size"
+        android:layout_height="@dimen/status_size"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/content_description_account_online_status"
+        android:src="@drawable/online_drawable"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/offset_small"
+            android:textSize="@dimen/text_size_12"
+            tools:text="17:15"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/out_message_bg"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <io.github.rockerhieu.emojicon.EmojiconTextView
+                android:id="@+id/text_view_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_16"
+                emojicon:emojiconSize="@dimen/text_size_16"
+                tools:text="Hi, my name is Andrew\nWhat is your name?"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

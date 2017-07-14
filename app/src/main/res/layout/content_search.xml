@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="@dimen/offset_small"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="@android:color/white"
+            android:text="@string/text_gender"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18"
+            tools:targetApi="lollipop"/>
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/offset_medium"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white"
+                android:checked="true"
+                android:text="@string/text_male"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_18"
+                tools:targetApi="lollipop"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white"
+                android:text="@string/text_female"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_18"
+                android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+                tools:targetApi="lollipop"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="@android:color/white"
+            android:text="@string/text_age"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18"
+            tools:targetApi="lollipop"/>
+
+        <EditText
+            android:id="@+id/edit_text_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/offset_medium"
+            android:backgroundTint="@android:color/white"
+            android:inputType="number"
+            android:minWidth="40dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            tools:ignore="LabelFor"
+            tools:targetApi="lollipop"
+            tools:text="18"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="@android:color/white"
+            android:text="@string/text_only_online"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18"
+            tools:targetApi="lollipop"/>
+    </LinearLayout>
+</android.support.design.widget.AppBarLayout>

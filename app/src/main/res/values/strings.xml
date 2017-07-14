@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_id_send_bird" translatable="false">38BDAC39-6F1F-4241-BB86-612155C9507A</string>
+    <string name="api_token_send_bird" translatable="false">60ca4a5ae7636387b4d7635d67c8c7e2e19a41fe</string>
+
+    <string name="app_name">RollingStonesAndroid</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_find_user">Find Friends</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_edit_profile">Edit profile</string>
+    <string name="title_activity_user_profile">Profile</string>
+    <string name="title_activity_account_deleted">Account deleted</string>
+
+    <string name="title_fragment_profile">Profile</string>
+    <string name="title_fragment_friends">Friends</string>
+    <string name="title_fragment_messages">Messages</string>
+    <string name="title_fragment_requests">Requests</string>
+
+    <string name="title_loading">Loading…</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_retry">Retry</string>
+    <string name="title_connection_error">Connection error</string>
+    <string name="title_logout">Log out</string>
+    <string name="title_message">Message</string>
+    <string name="title_exit">Exit</string>
+    <string name="title_fab_item_dialogue">Dialogue</string>
+    <string name="title_fab_item_group">Group</string>
+    <string name="title_delete_account">Delete account</string>
+    <string name="title_conversation_settings">Conversation settings</string>
+    <string name="title_leave_this_chat">Leave this chat</string>
+    <string name="title_distance_calculator">Distance calculator</string>
+    <string name="title_accept">Accept</string>
+
+    <string name="hint_login_text">Login</string>
+    <string name="hint_password_text">Password</string>
+    <string name="hint_confirm_password_text">Confirm password</string>
+    <string name="hint_first_name_text">First name</string>
+    <string name="hint_last_name_text">Last name</string>
+    <string name="hint_old_password">Old password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_group_title">Group title</string>
+    <string name="hint_search">Search…</string>
+
+    <string name="text_sign_in">Sign in</string>
+    <string name="text_sign_up">Sign up</string>
+    <string name="text_create_account">Create account</string>
+    <string name="text_account_created">Account created</string>
+    <string name="text_no_internet_connection">No internet connection</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_ok">OK</string>
+    <string name="text_receive_only_friends_messages">Receive only friends messages</string>
+    <string name="text_gender">Gender:</string>
+    <string name="text_male">Male</string>
+    <string name="text_female">Female</string>
+    <string name="text_dob">Date of birth:</string>
+    <string name="text_years">years</string>
+    <string name="text_save">Save</string>
+    <string name="text_account_updated">Profile updated</string>
+    <string name="text_search">Search</string>
+    <string name="text_remove_from_friends">Remove from friends</string>
+    <string name="text_add_as_a_friend">Add as a friend</string>
+    <string name="text_write_message">Write message</string>
+    <string name="text_request_added">Request added</string>
+    <string name="text_friend_removed">Friend removed</string>
+    <string name="text_accept">Accept</string>
+    <string name="text_password_changed">Password changed</string>
+    <string name="text_wrong_old_password">Wrong old password</string>
+    <string name="text_change_password">Change password</string>
+    <string name="text_saved">Saved</string>
+    <string name="text_select_friend">Select friend</string>
+    <string name="text_account">Account</string>
+    <string name="text_delete_account">Are you sure, you want to delete your account</string>
+    <string name="text_logout">Are you sure, you want to log out</string>
+    <string name="text_application">Application</string>
+    <string name="text_friend_list_order">Friend list order</string>
+    <string name="text_font_size">Font size</string>
+    <string name="text_notifications">Notifications</string>
+    <string name="text_vibration">Vibration</string>
+    <string name="text_restore_account">Restore account</string>
+    <string name="text_distance">Distance:</string>
+    <string name="text_sound">Sound</string>
+    <string name="text_remove_request">Remove request</string>
+    <string name="text_request_removed">Request removed</string>
+    <string name="text_empty_list">This list is empty</string>
+    <string name="text_you_left_this_chat">You left this chat</string>
+    <string name="text_add_user_to_group">Add a user to group</string>
+    <plurals name="text_user_is_typing">
+        <item quantity="one">%1$s is typing…</item>
+        <item quantity="many">Users are typing…</item>
+    </plurals>
+    <string name="text_age">Age:</string>
+    <string name="text_accept_request">Accept request</string>
+    <string name="text_request_accepted">Request accepted</string>
+    <string name="text_online">Online</string>
+    <string name="text_offline">Offline</string>
+    <string name="text_only_online">Only online</string>
+    <string name="text_notification">Notification</string>
+    <string name="text_sent_you_friend_request">Sent you friend request</string>
+    <string name="text_select_users">Select users</string>
+    <string name="text_remove">Remove</string>
+    <string name="text_speech_prompt">Say something</string>
+
+    <string name="content_description_send">Send button</string>
+    <string name="content_description_date">Date picker</string>
+    <string name="content_description_account_deleted">Account deleted logo</string>
+    <string name="content_description_icon_add">Icon add user</string>
+    <string name="content_description_delete_member">Delete member</string>
+    <string name="content_description_account_online_status">online icon</string>
+
+    <string name="error_invalid_login_or_password">Invalid login or password</string>
+    <string name="error_password_is_empty">Password can not be empty</string>
+    <string name="error_password_is_too_small">Password must be at least 3 characters in length</string>
+    <string name="error_dob_is_not_selected">Date of birth is not selected</string>
+    <string name="error_first_name_is_empty">First name can not be empty</string>
+    <string name="error_last_name_is_empty">Last name can not be empty</string>
+    <string name="error_password_does_not_match_the_confirm_password">Password does not match the confirm password</string>
+    <string name="error_login_is_empty">Login cannot be empty</string>
+    <string name="error_login_is_too_small">Login must be at least 3 characters in length</string>
+    <string name="error_login_already_exists">this login name already exists</string>
+    <string name="error_some_problem">Error, some problem</string>
+    <string name="error_group_title_is_empty">Group title cannot be empty</string>
+    <string name="error_sendbird">Error with sendbird</string>
+    <string name="error_forbidden">Forbidden</string>
+    <string name="error_not_found">Not found</string>
+    <string name="error_conflict">Conflict</string>
+    <string name="error_internal_server">Internal server error</string>
+    <string name="error_bad_request">Bad request</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_unauthorized">Unauthorized</string>
+    <string name="error_message_not_found">Message not found</string>
+    <string name="error_speech_not_supported">Sorry! Your device doesn\\\'t support speech input</string>
+    <string name="title_web_api">Web Api</string>
+    <string name="hint_web_api_url">192.168.1.148</string>
+    <string name="title_web_api_settings">Web Api Settings</string>
+
+</resources>

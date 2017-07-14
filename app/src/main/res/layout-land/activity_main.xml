@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_layout_bg"
+    android:orientation="vertical"
+    tools:context="com.rolling_stones.rollingstonesandroid.activity.MainActivity">
+
+    <include layout="@layout/app_bar"/>
+
+    <include layout="@layout/content_search"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context="com.rolling_stones.rollingstonesandroid.activity.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <devlight.io.library.ntb.NavigationTabBar
+            android:id="@+id/ntb"
+            android:layout_width="@dimen/navigation_tab_bar_height"
+            android:layout_height="match_parent"
+            app:ntb_badge_bg_color="@color/color_badge_bg"
+            app:ntb_badge_size="12sp"
+            app:ntb_badge_title_color="@android:color/white"
+            app:ntb_bg_color="@color/colorPrimaryDark"
+            app:ntb_inactive_color="@android:color/white"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

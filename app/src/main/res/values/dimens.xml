@@ -1,0 +1,46 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="progress_dialog_size">48dp</dimen>
+
+    <dimen name="navigation_tab_bar_height">60dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+
+    <dimen name="status_size">12dp</dimen>
+
+    <dimen name="user_icon_size">150dp</dimen>
+    <dimen name="user_icon_size_dialogue">65dp</dimen>
+    <dimen name="user_icon_size_friend">60dp</dimen>
+    <dimen name="user_icon_size_message">35dp</dimen>
+
+    <dimen name="emojicons_height">270dp</dimen>
+
+    <dimen name="offset_min">2dp</dimen>
+    <dimen name="offset_tiny">4dp</dimen>
+    <dimen name="offset_small">8dp</dimen>
+    <dimen name="offset_medium">12dp</dimen>
+    <dimen name="offset_regular">16dp</dimen>
+    <dimen name="offset_average">20dp</dimen>
+    <dimen name="offset_large">24dp</dimen>
+    <dimen name="offset_huge">32dp</dimen>
+    <dimen name="offset_big">46dp</dimen>
+    <dimen name="offset_gigantic">56dp</dimen>
+    <dimen name="offset_super_gigantic">84dp</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="text_size_6">6sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_48">48sp</dimen>
+</resources>
