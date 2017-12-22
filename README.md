@@ -2,8 +2,8 @@
 
 Social messenger with ability to send messages, create group chats, receive notifications, find distance between users, watch profiles, find new friends and much more. 
 
-## Small preview 
-https://www.youtube.com/watch?v=bG2vTWeufQI&list=PL1B9Bc9mWuKJ6M_t29vcrMCFNtrvWIJB8
+## Demo
+[![Demo Doccou alpha](https://j.gifs.com/G5YOEy.gif)](https://www.youtube.com/watch?v=bG2vTWeufQI&list=PL1B9Bc9mWuKJ6M_t29vcrMCFNtrvWIJB8)
 
 ## Screenshots
 
